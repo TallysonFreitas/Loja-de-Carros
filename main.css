@@ -3,3 +3,143 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: sans-serif;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #192a56;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+header > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    padding: 16px 0;
+    font: bold 2em sans-serif;
+}
+
+nav{
+    background-color: #575fcf;
+    width: 100%;
+    padding: 16px;
+    text-transform: uppercase;
+    display: none;
+
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+header ul li{
+    margin-right: 20px;
+}
+
+header ul li a{
+    color: white;
+    text-decoration: none;
+    font: bold 0.9em sans-serif;
+}
+
+.container{
+    width: 1280px;
+    margin: auto;
+}
+
+.container-flex{
+    display: flex;
+}
+
+.menu-hamburguer{
+    width: 37px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.menu-hamburguer:hover{
+    border-radius: 100%;
+    background-color: #09173b;
+}
+
+.menu-hamburguer span{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#sobre img{
+    max-width: 400px;
+    margin-right: 24px;
+}
+
+section{
+    padding: 48px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+.lista-veiculos{
+    flex-wrap: wrap;
+}
+
+.lista-veiculos li{
+    list-style-type: none;
+    max-width: 30%;
+    margin-bottom: 24px;
+}
+
+.lista-veiculos li img{
+    max-width: 100%;
+}
+
+.lista-veiculos li h3{
+    margin: 16px 0;
+}
+
+.lista-veiculos li button{
+    display: block;
+    width: 100%;
+    padding: 16px 0;
+    border: none;
+    background-color: #119759;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.price{
+    display: block;
+    margin: 16px;
+}
+
+.price del{
+    color: #ccc;
+    font-size: 0.9em;
+}
+
+.item-central{
+    margin: 0 5%;
+}
