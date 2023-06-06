@@ -74,8 +74,8 @@ header ul li a{
 }
 
 .menu-hamburguer{
-    width: 37px;
-    padding: 5px;
+    width: 30px;
+    padding: 6px;
     cursor: pointer;
 }
 
@@ -135,6 +135,7 @@ button{
     font-style: italic;
     cursor: pointer;
     border-radius: 6px;
+    transition: 0.4s;
 }
 
 .price{

@@ -177,29 +177,29 @@
             </ul>
         </div>
     </section>
-    <section>
+    <section id="contato">
         <div class="container">
             <h2>Entre em contato</h2>
             <form action="">
                 <div class="form-campo">
                     <label for="nome">Nome:</label>
-                    <input type="text" name="" id="nome">
+                    <input type="text" name="nome" id="nome">
                 </div>
                 <div class="form-campo">
                     <label for="telefone">Telefone:</label>
-                    <input type="tel" name="" id="telefone">
+                    <input type="tel" name="telefone" id="telefone">
                 </div>
                 <div class="form-campo">
                     <label for="email">E-mail:</label>
-                    <input type="email" name="" id="email">
+                    <input type="email" name="email" id="email">
                 </div class="form-campo">
                 <div class="form-campo">
                     <label for="veiculo-interesse">Veiculo de interesse:</label>
-                    <input type="text" name="" id="veiculo-interesse">
+                    <input type="text" name="veiculo" id="veiculo-interesse">
                 </div>
                 <div class="form-campo">
                     <label for="mensagem">Mensagem:</label>
-                    <textarea name="" id="mensagem"></textarea>
+                    <textarea name="mensagem" id="mensagem"></textarea>
                 </div>
                 <button type="submit">Enviar</button>
             </form>
@@ -218,17 +218,9 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-    <script>
-        $(document).ready(function(){
-            $('#carrossel-1-img').slick({
-                autoplay:true,
-            })
-        })
-
-        $('.menu-hamburguer').click(function(){
-            $('nav').slideToggle()
-        })
-    </script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
